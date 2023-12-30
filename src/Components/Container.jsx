@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Container() {
   return (
     <div>
-      <h1>Todo App</h1>
+      
     </div>
   )
 }
 
-export default App
+export default Container

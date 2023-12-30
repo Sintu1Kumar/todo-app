@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function SingleTask() {
   return (
     <div>
-      <h1>Todo App</h1>
+      
     </div>
   )
 }
 
-export default App
+export default SingleTask

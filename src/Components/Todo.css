@@ -1,72 +1,104 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.main-div{
-    background-color: gray;
-    justify-content: center;
-    padding: 3% 10%;
-    margin: 5% 0%;
-    border-radius: 15px;
+.main-div {
+  background-color: gray;
+  padding: 3% 10%;
+  margin: 5% 0%;
+  border-radius: 15px;
+  position: relative;
 }
-figcaption{
-    text-align: center;
-    margin: 5% 0rem;
-    font-weight: 700;
-    color: black;
+figure img {
+  max-height: 5rem;
+  margin-left: 38%;
 }
-.addItem{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
+figcaption {
+  text-align: center;
+  margin: 5% 0rem;
+  font-weight: 700;
+  color: black;
 }
-#textbox{
-    width: 15rem;
-    height: 2.5rem;
-    padding: 0rem 0.3rem;
-    font-weight: 500;
-    color: black;
+.addItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-#add-icon{
-    position: absolute;
-    font-size: 2rem;
-    color: black;
-    right: 0;
+#textbox {
+  width: 20rem;
+  height: 2.5rem;
+  padding: 0rem 0.3rem;
+  font-weight: 500;
+  color: black;
 }
-#add-icon:hover{
-    color: darkblue;
+.add-icon {
+  position: absolute;
+  font-size: 1.8rem;
+  color: black;
+  right: 0.5rem;
 }
-.show-item{
-    margin: 1.5rem 0rem;
+.add-icon:hover {
+  color: darkblue;
+  padding: 0.2rem;
+  background-color: darkgray;
+  border-radius: 50%;
 }
-.item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(172, 243, 219);
-    border-radius: 0.4rem;
-    position: relative;
-    margin: 0.5rem 0rem;
+.show-item {
+  margin: 1.5rem 0rem;
 }
-.item h3{
-    font-size: 2rem;
-    padding: 0rem 0.3rem;
-    text-wrap: wrap;
+.item {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 0.4rem;
+  position: relative;
+  margin: 0.5rem 0rem;
 }
-#delete-icon{
-    position: absolute;
-    font-size: 2rem;
-    right: 0;
-    top: 0.4rem;
+.item h3 {
+  font-size: 1.5rem;
+  padding-left: 0.5rem;
+  max-width: 80%;
+  justify-content: center;
+  word-wrap: break-word;
 }
-.clear{
-    display: flex;
-    justify-content: center;
+.show-icon {
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+#delete-icon {
+  font-size: 1.4rem;
+  position: absolute;
+  right: 0.3rem;
+  color: black;
+}
+#delete-icon:hover {
+  color: darkblue;
+  padding: 0.1rem;
+  background-color: darkgray;
+  border-radius: 50%;
+}
+#edit-icon {
+  font-size: 1.4rem;
+  position: absolute;
+  right: 3rem;
+  color: black;
+}
+#edit-icon:hover {
+  color: darkblue;
+  padding: 0.1rem;
+  background-color: darkgray;
+  border-radius: 50%;
+}
+.clear {
+  display: flex;
+  justify-content: center;
 }

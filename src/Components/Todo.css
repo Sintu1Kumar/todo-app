@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    background-color: gray;
+    justify-content: center;
+    padding: 3% 10%;
+    margin: 5% 0%;
+    border-radius: 15px;
+}
+figcaption{
+    text-align: center;
+    margin: 5% 0rem;
+    font-weight: 700;
+    color: black;
+}
+.addItem{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+#textbox{
+    width: 15rem;
+    height: 2.5rem;
+    padding: 0rem 0.3rem;
+    font-weight: 500;
+    color: black;
+}
+#add-icon{
+    position: absolute;
+    font-size: 2rem;
+    color: black;
+    right: 0;
+}
+#add-icon:hover{
+    color: darkblue;
+}
+.show-item{
+    margin: 1.5rem 0rem;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(172, 243, 219);
+    border-radius: 0.4rem;
+    position: relative;
+    margin: 0.5rem 0rem;
+}
+.item h3{
+    font-size: 2rem;
+    padding: 0rem 0.3rem;
+    text-wrap: wrap;
+}
+#delete-icon{
+    position: absolute;
+    font-size: 2rem;
+    right: 0;
+    top: 0.4rem;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+}

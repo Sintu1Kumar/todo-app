@@ -1,11 +1,10 @@
 import React from 'react'
-import Container from './Components/Container'
+import Todo from './Components/Todo'
 
 function App() {
   return (
     <div>
-      <h1>Todo App</h1>
-      <Container/>
+      <Todo/>
     </div>
   )
 }
